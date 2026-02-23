@@ -1,0 +1,85 @@
+.hero {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 7;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    color:rgb(243, 246, 249);   
+}
+
+.overlay{
+    position: absolute;
+    inset: 0;
+      background:
+    linear-gradient(
+      to right,
+      rgba(0,0,0,0) 40%,
+      rgba(0,0,0,0.025) 75%,
+      rgba(0,0,0,0.05) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(0,0,0,0.4) 0%,
+      rgba(0,0,0,0.15) 10%,
+      rgba(0,0,0,0) 45%
+    );
+}
+
+
+.hero::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+}
+
+.hero-content {
+ font-family: 'Inter Tight', sans-serif;
+  position: relative;
+  padding: 0 29px;
+}
+
+.subtitle {
+  letter-spacing: 9px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  opacity: 0.9;
+  text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+  font-size: 220px;
+  font-weight: 300;
+  margin: 0;
+  line-height: 0.9;
+  letter-spacing: 0px;
+  text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.price {
+  font-size: 18px;
+  margin: 25px 0;
+  opacity: 0.9;
+  text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero-btn {
+  background: #1c69d4;           /* BMW blue */
+  color: white;
+  border: none;
+  padding: 16px 52px;            /* balanced spacing */
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;            /* subtle curve (not too round) */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: #1558b0;
+}

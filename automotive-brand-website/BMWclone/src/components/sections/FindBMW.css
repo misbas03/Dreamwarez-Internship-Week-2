@@ -1,0 +1,53 @@
+.find-bmw{
+   padding: 1px 60px;
+   text-align: center;
+}
+
+.find-bmw h2 {
+    font-size: 38px;
+    margin-bottom: 60px;
+    font-weight: 230;       /* thinner */
+    letter-spacing: 1.2px; /* subtle tightening */
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.bmw-options {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bmw-card {
+  flex: 1;
+}
+
+.icon {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.bmw-card p {
+  font-size: 23px;
+  margin-bottom: 23px;
+  font-weight: 230;       /* thinner */
+  letter-spacing: 1.2px;
+  color: #333;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+.find-bmw .outline-btn {
+  padding: 18px 30px;
+  background: transparent;
+  border: 1px solid #111;
+  color: #111;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.find-bmw .outline-btn:hover {
+  border: 2px solid #000;   /* thicker + darker */
+}

@@ -1,0 +1,84 @@
+.x1-banner {
+  position: relative;
+  margin-top: 45px;
+  width: 100%;
+  aspect-ratio: 3 / 1;   /* same BMW banner ratio */
+  overflow: hidden;
+  color: white;
+  margin-bottom: 45px;
+}
+
+.x1-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.x1-overlay{
+    position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.70) 0%,   /* almost full black */
+    rgba(0, 0, 0, 0.7) 15%,
+    rgba(0, 0, 0, 0.6) 30%,
+    rgba(0, 0, 0, 0.4) 45%,
+    rgba(0, 0, 0, 0.1) 60%,
+    rgba(0, 0, 0, 0) 80%
+  );
+}
+
+.x1-content{
+  position: absolute;
+  top: 40%;
+  left: 100px;
+  transform: translateY(-50%);
+  max-width: 500px;
+  letter-spacing: 1.2px;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+
+/* THE */
+.x1-p1 {
+  margin-top: 30%;
+  font-size: 27px;
+  letter-spacing: 6px;
+  margin-bottom: 8px;
+  font-weight: 300;
+}
+
+/* iX1 big heading */
+.x1-h2 {
+  font-size: 230px;
+  font-weight: 300;
+  line-height: 1;
+  margin: 0 0 5px 0;
+  letter-spacing: -4px;
+}
+
+/* Sub text lines */
+.x1-p {
+  font-size: 18px;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+/* Button */
+.x1-btn {
+  margin-top: 30px;
+  width: 300px;
+  height: 48px;
+  background: transparent;
+  border: 1.5px solid rgba(255, 255, 255, 0.7);
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+.x1-btn:hover {
+  border-color: #ffffff;
+}

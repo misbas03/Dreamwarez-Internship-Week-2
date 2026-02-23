@@ -1,0 +1,136 @@
+.footer {
+  background: #f2f2f2;
+  margin-top: 100px;
+  font-family: 'Inter Tight', sans-serif;
+  color: #222;
+}
+
+/* INNER WRAPPER */
+.footer-inner {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+/* ================= SIGNUP BAR ================= */
+.signup-bar {
+  border-bottom: 1px solid #d6d6d6;   /* slightly darker */
+  padding: 24px 0;                   /* slightly smaller */
+}
+
+.signup-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup-left {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.footer-logo {
+  width: 45px;
+}
+
+.signup-left p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+}
+
+.signup-right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-right: 100px;
+}
+
+.signup-right:hover {
+  color: #1c69d4;
+}
+
+/* ================= FOOTER SECTIONS ================= */
+
+.footer-sections {
+  padding-top: 0px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;       /* 🔥 THIS controls space between row 1 & row 2 */
+}
+
+.footer-row {
+  display: flex;
+  gap: 90px;       /* horizontal space between columns */
+}
+
+.footer-col {
+  flex: 1;
+}
+
+/* HEADINGS */
+.footer-col h3 {
+  font-size: 25px;      /* slightly smaller like BMW */
+  font-weight: 200;
+  margin-bottom: 30px;  /* 🔥 tighter */
+}
+
+/* LIST */
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col li {
+  font-size: 16px;      /* BMW-like smaller */
+  margin-bottom: 12px;   /* 🔥 tighter vertical spacing */
+  color: #444;
+  cursor: pointer;
+  transition: 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.footer-col li:hover {
+  color: #1c69d4;
+}
+
+/* ================= BOTTOM BAR ================= */
+
+.footer-bottom {
+  border-top: 1px solid #d6d6d6;
+  padding: 25px 0;
+  display: flex;
+  justify-content: flex-start;  /* 👈 push everything left */
+  align-items: center;
+  gap: 40px;
+  letter-spacing: 1px;            /* 👈 space between text & links */
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.footer-links {
+  display: flex;
+  gap: 25px;
+  font-size: 14px;
+}
+
+.footer-links span {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.footer-links span:hover {
+  color: #1c69d4;
+}

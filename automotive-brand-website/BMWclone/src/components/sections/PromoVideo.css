@@ -1,0 +1,85 @@
+.promo-video {
+  position: relative;
+  margin-top: 45px;   /* space above video */
+  width: 100%;
+  aspect-ratio: 16 / 7;     /* 👈 cinematic height */
+  overflow: hidden;
+  color: white;
+}
+
+.promo-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* very important */
+}
+
+/* Dark gradient from left */
+.promo-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      to right,
+      rgba(0,0,0,0) 40%,
+      rgba(0,0,0,0.025) 75%,
+      rgba(0,0,0,0.05) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(0,0,0,0.4) 0%,
+      rgba(0,0,0,0.15) 10%,
+      rgba(0,0,0,0) 45%
+    );
+}
+
+.promo-content {
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  transform: translateY(-50%);
+  max-width: 500px;
+  letter-spacing: 1.2px;
+  font-family: 'Inter Tight', sans-serif;
+  
+}
+
+.small-text {
+  letter-spacing: 10px;
+  font-size: 14px;
+  margin-bottom: px;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+.big-number {
+  font-size: 220px;;
+  font-weight: 300;
+  line-height: 1;
+  margin: 0;
+}
+
+.tagline {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.desc {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.blue-btn {
+  background: #1c69d4;           /* BMW blue */
+  color: white;
+  border: none;
+  padding: 16px 52px;            /* balanced spacing */
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;            /* subtle curve (not too round) */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.blue-btn:hover {
+  background: #1558b0;
+}
