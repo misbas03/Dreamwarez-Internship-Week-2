@@ -1,4 +1,4 @@
-# Week 2 – Frontend Development (Internship)
+# Week - 2 BMWclone 
 
 ## Project: Automotive Brand Landing Page (React.js)
 
