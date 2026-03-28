@@ -1,4 +1,4 @@
-# Week - 2 BMWclone 
+# Week 2 - BMWclone 
 
 ## Project: Automotive Brand Landing Page (React.js)
 
